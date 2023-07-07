@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RealGameSceneManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class RealGameSceneManager : MonoBehaviour
     public float ileSekund;
     // kamera
     public GameObject Cam;
+    // wyrzutnie
+    public List<GameObject> wyrzutnie;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,7 @@ public class RealGameSceneManager : MonoBehaviour
             item.SetActive(true);
         }
         StartCoroutine(NaStart());
+
     }
 
     // Update is called once per frame
@@ -42,5 +46,22 @@ public class RealGameSceneManager : MonoBehaviour
             item.SetActive(true);
         }
         Cam.SetActive(false);
+        yield return new WaitForSeconds(3);
+        StartCoroutine(WystrzalZWyrzutni());
+    }
+    IEnumerator WystrzalZWyrzutni()
+    {
+        yield return new WaitForSeconds(2);
+        if (wyrzutnie.Count == 0)
+        {
+            SceneManager.LoadScene(4);
+        }
+        int wygenerowany = Random.Range(0, wyrzutnie.Count - 1);
+        GameObject wylosowana = wyrzutnie[wygenerowany];
+        GameObject child = wylosowana.transform.GetChild(1).gameObject;
+        child.GetComponent<Rigidbody>().AddForce(new Vector3(child.transform.position.x, child.transform.position.y - 150, -60000), ForceMode.Acceleration);
+        wyrzutnie.Remove(wylosowana);
+
+        StartCoroutine(WystrzalZWyrzutni());
     }
  }
