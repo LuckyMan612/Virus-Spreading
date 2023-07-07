@@ -8,9 +8,19 @@ public class RealGameSceneManager : MonoBehaviour
     public GameObject[] coWylaczycNaStart;
     public GameObject[] coWlaczycNaStart;
     public float ileSekund;
+    // kamera
+    public GameObject Cam;
     // Start is called before the first frame update
     void Start()
     {
+        foreach (GameObject item in coWlaczycNaStart)
+        {
+            item.SetActive(false);
+        }
+        foreach (GameObject item in coWylaczycNaStart)
+        {
+            item.SetActive(true);
+        }
         StartCoroutine(NaStart());
     }
 
@@ -31,5 +41,6 @@ public class RealGameSceneManager : MonoBehaviour
         {
             item.SetActive(true);
         }
+        Cam.SetActive(false);
     }
  }
