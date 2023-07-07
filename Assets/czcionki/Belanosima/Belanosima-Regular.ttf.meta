@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e880a236cc42daa4790ec1e40957abda
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Belanosima
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 40fa833e99255f340bca7dfb75ff5805, type: 3}
+  - {fileID: 12800000, guid: 153aade410a353c4fa79e96e45deb09a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

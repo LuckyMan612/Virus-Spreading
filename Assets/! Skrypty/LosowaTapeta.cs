@@ -9,11 +9,15 @@ public class LosowaTapeta : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<RawImage>().texture = tapety[Random.Range(0, tapety.Length)];
+        ustawTapete();
     }
 
     // Update is called once per frame
     void Update()
     {
+    }
+    public void ustawTapete()
+    {
+        GetComponent<RawImage>().texture = tapety[Random.Range(0, tapety.Length)];
     }
 }
