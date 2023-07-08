@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/zapiszDoChmury.unity
     guid: a72339c1a8b1d514abbd2cbf0ebf6b80
+  - enabled: 1
+    path: Assets/Scenes/przegrana.unity
+    guid: 69b6a32cf08b9d04c98a6b3a9e5413f8
   m_configObjects: {}

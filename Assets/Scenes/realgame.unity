@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (11)
@@ -227,6 +231,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 55359581}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &55359586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55359583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000022351742, y: 0, z: 0.00000008940697}
 --- !u!1 &133699412
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +427,7 @@ Transform:
   - {fileID: 421507906}
   - {fileID: 1630247590}
   - {fileID: 409487192}
+  - {fileID: 1306350993}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -480,6 +498,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: -2577548232221058511, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.83
@@ -529,6 +551,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 286197084}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &286197089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286197086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0, y: 0.000000059604645, z: -0.000000029802322}
 --- !u!1001 &397762719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -596,6 +631,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (13)
@@ -633,6 +672,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 397762719}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &397762724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397762721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000029802322, y: 0.000000029802322, z: 0.000000059604645}
 --- !u!1001 &401636938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,6 +752,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (10)
@@ -737,6 +793,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 401636938}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &401636943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401636940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000026077032, y: 0, z: 0.000000044703484}
 --- !u!1 &409487191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1236,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (9)
@@ -1204,6 +1277,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 729634227}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &729634232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729634229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000007450581, y: 0.00000011920929, z: 0.000000029802322}
 --- !u!1001 &762416116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1271,6 +1357,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (7)
@@ -1308,6 +1398,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 762416116}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &762416121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762416118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000014901161, y: 0.000000059604645, z: 0.000000029802322}
 --- !u!1 &832085450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
@@ -1380,6 +1483,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (14)
@@ -1417,6 +1524,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 867723467}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &867723472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867723469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000029802322, y: -0.000000059604645, z: 0.000000029802322}
 --- !u!1 &971014872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1672,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (6)
@@ -1589,6 +1713,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 971481662}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &971481667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971481664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000029802322, y: 0, z: 0}
 --- !u!1 &983419007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,7 +1809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 543.39
+      value: 488.7
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1791,6 +1928,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (8)
@@ -1828,6 +1969,113 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 1259949210}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1259949215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259949212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000018626451, y: -0.000000059604645, z: 0.000000029802322}
+--- !u!1 &1306350992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1306350993}
+  - component: {fileID: 1306350994}
+  m_Layer: 3
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306350993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306350992}
+  m_LocalRotation: {x: 0.5271364, y: 0.5301181, z: -0.32766575, w: 0.57769996}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 229872009}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 73.03, y: 113.802, z: 38.152}
+--- !u!108 &1306350994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306350992}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1476742282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1895,6 +2143,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (3)
@@ -1932,6 +2184,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 1476742282}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1476742287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476742284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000029802322, y: 0, z: 0.000000074505806}
 --- !u!1001 &1551365094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1999,6 +2264,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (2)
@@ -2036,6 +2305,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 1551365094}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1551365099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551365096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000029802322, y: 0, z: 0.000000044703484}
 --- !u!1 &1630247589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,6 +2719,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (12)
@@ -2474,6 +2760,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 1942120670}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1942120675
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942120672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0, y: 0.00000011920929, z: 0.00000008940697}
 --- !u!1001 &1943862912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2541,6 +2840,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia
@@ -2578,6 +2881,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 1943862912}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1943862917
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943862914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000059604645, y: 0.000000029802322, z: 0.000000044703484}
 --- !u!1 &1945819107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +3055,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (5)
@@ -2776,6 +3096,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 2029430908}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2029430913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029430910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0.000000044703484, y: 0, z: 0}
 --- !u!1001 &2039105124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2843,6 +3176,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
+      propertyPath: m_TagString
+      value: Strzala
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
       propertyPath: m_Name
       value: wyrzutnia (4)
@@ -2880,3 +3217,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44d8400d4020e0e4fa477b762f0ad3f6, type: 3}
   m_PrefabInstance: {fileID: 2039105124}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2039105129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039105126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000014, y: 0.02000001, z: 0.020000014}
+  m_Center: {x: 0, y: 0.000000059604645, z: 0.00000010430813}
