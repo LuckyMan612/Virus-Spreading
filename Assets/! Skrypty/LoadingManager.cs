@@ -8,7 +8,6 @@ public class LoadingManager : MonoBehaviour
     public GameObject przesuniecieLewo;
     public float[] _lewo;
     public float[] _prawo;
-    public GameObject wszystko;
     // Start is called before the first frame update
     void Start()
     {
