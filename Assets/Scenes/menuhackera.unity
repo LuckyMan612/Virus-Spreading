@@ -315,7 +315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to the haceker center, here you can hack into a random computer.
+  m_text: Welcome to the virus center, here you can hack into a random computer.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.95
+  m_fontSize: 21.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hacker Center
+  m_text: Virus Center
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bc83989dca11b7d4d9a765b225624b14, type: 2}
   m_sharedMaterial: {fileID: 292053243219925037, guid: bc83989dca11b7d4d9a765b225624b14, type: 2}

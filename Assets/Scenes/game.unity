@@ -2701,6 +2701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 693500689}
+  - component: {fileID: 693500690}
   m_Layer: 5
   m_Name: Dysk
   m_TagString: Untagged
@@ -2731,6 +2732,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &693500690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693500688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59522152921f44784cd5fcf278b4dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sl: {fileID: 1669516916}
+  pam: {fileID: 1574555903}
 --- !u!1 &694271441
 GameObject:
   m_ObjectHideFlags: 0
@@ -5310,7 +5325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mine nein disk
+  m_text: Local Disk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e4a9338d611275347ad3129fcc924a50, type: 2}
   m_sharedMaterial: {fileID: 1117913440948291952, guid: e4a9338d611275347ad3129fcc924a50, type: 2}
