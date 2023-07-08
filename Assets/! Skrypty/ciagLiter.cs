@@ -8,7 +8,7 @@ public class ciagLiter : MonoBehaviour
     void Start()
     {
         Rigidbody rb = GetComponent<Rigidbody>();
-        rb.AddForce(new Vector3(-0.2000008f, 0, -5555), ForceMode.Acceleration);
+        rb.AddForce(new Vector3(-0.2000008f, 0, -10000), ForceMode.Acceleration);
     }
 
     // Update is called once per frame
