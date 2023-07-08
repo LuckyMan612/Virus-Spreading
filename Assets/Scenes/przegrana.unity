@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 229630028}
   - component: {fileID: 229630027}
   - component: {fileID: 229630029}
+  - component: {fileID: 229630030}
   m_Layer: 0
   m_Name: scenechanger
   m_TagString: Untagged
@@ -178,6 +179,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2ede663c19a88d4db9138e0b375e8b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &229630030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229630026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527cfbc51542be044a0abb3c1ea65728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &233729270
@@ -819,7 +832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.6736145, y: -20.088501}
+  m_AnchoredPosition: {x: 7.673584, y: -20.088501}
   m_SizeDelta: {x: 188.4297, y: 151.7018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520351573
