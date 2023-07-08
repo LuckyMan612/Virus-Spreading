@@ -8,6 +8,8 @@ public class WlaczProgram : MonoBehaviour
     public GameObject fileExplorer;
     public GameObject steam;
     public GameObject chrome;
+    public AudioSource klik;
+    public AudioSource mouse_click;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +20,7 @@ public class WlaczProgram : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GetMouseClick();
     }
     public void wlaczProgram(string program)
     {
@@ -44,9 +46,18 @@ public class WlaczProgram : MonoBehaviour
     }
     public void zamknijProgram()
     {
+        klik.Play();
         aplikacje.SetActive(false);
         steam.SetActive(false);
         chrome.SetActive(false);
         fileExplorer.SetActive(false);
+    }
+
+    void GetMouseClick()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            mouse_click.Play();
+        }
     }
 }
