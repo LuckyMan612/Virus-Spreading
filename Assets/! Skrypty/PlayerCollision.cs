@@ -20,7 +20,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Strzala"))
         {
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(1);
         }
     }
 }
