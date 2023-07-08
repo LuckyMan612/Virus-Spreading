@@ -10,6 +10,7 @@ public class zapiszLeaderboard : MonoBehaviour
     {
         LeaderboardCreator.UploadNewEntry("d0ced8abd3dbbee4f7a8a3c671d137c4815d5cf71a36a0085b9b6430d73353af", PlayerPrefs.GetString("nick", ""), PlayerPrefs.GetInt("ktoryLevel", 1) + 1, Callback);
         PlayerPrefs.SetInt("ktoryLevel", PlayerPrefs.GetInt("ktoryLevel", 1) + 1);
+        
     }
 
     // Update is called once per frame

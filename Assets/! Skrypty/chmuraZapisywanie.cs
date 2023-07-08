@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
-public class zapiszNick : MonoBehaviour
+public class chmuraZapisywanie : MonoBehaviour
 {
-    public TMP_InputField nick;
+    public GameObject komputer;
+    public GameObject loading;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +17,8 @@ public class zapiszNick : MonoBehaviour
     {
         
     }
-    public void Zapisz()
+    public void Rozpocznij()
     {
-        PlayerPrefs.SetString("nick", nick.text);
-        PlayerPrefs.Save();
-        Debug.Log(PlayerPrefs.GetString("nick", "brak"));
+
     }
 }
