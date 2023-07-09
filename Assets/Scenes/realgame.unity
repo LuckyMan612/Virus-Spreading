@@ -6388,6 +6388,8 @@ MonoBehaviour:
   - {fileID: 656557932}
   - {fileID: 103696020}
   - {fileID: 1198490867}
+  - {fileID: 983419007}
+  tenParticle: {fileID: 3631804697708564043, guid: 282ba64275a47a44f84e576935fce97b, type: 3}
 --- !u!4 &449662295
 Transform:
   m_ObjectHideFlags: 0

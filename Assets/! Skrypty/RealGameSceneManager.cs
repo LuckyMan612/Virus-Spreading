@@ -20,6 +20,7 @@ public class RealGameSceneManager : MonoBehaviour
     public GameObject piesc;
     public GameObject fps;
     public GameObject[] coUsunac;
+    public GameObject tenParticle;
     // Start is called before the first frame update
     void Start()
     {
@@ -77,6 +78,10 @@ public class RealGameSceneManager : MonoBehaviour
         GameObject wylosowana = wyrzutnie[wygenerowany];
         GameObject child = wylosowana.transform.GetChild(1).gameObject;
         //child.GetComponent<Rigidbody>().AddForce(new Vector3(child.transform.position.x, child.transform.position.y - 150, -60000), ForceMode.Acceleration);
+        GameObject partikle = Instantiate(tenParticle);
+        partikle.transform.SetParent(child.transform, true);
+        partikle.transform.position = child.transform.position;
+        partikle.GetComponent<ParticleSystem>().Play();
         child.GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
         wyrzutnie.Remove(wylosowana);
 
