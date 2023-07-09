@@ -16,6 +16,9 @@ public class RealGameSceneManager : MonoBehaviour
     public List<GameObject> wyrzutnie;
     // gracz
     public Transform player;
+    [Header("Koniec mapy")]
+    public GameObject piesc;
+    public GameObject fps;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +53,7 @@ public class RealGameSceneManager : MonoBehaviour
         }
         Cam.SetActive(false);
         yield return new WaitForSeconds(3);
+
         StartCoroutine(WystrzalZWyrzutni());
     }
     IEnumerator WystrzalZWyrzutni()
@@ -57,7 +61,12 @@ public class RealGameSceneManager : MonoBehaviour
         yield return new WaitForSeconds(2);
         if (wyrzutnie.Count == 0)
         {
-            SceneManager.LoadScene(4);
+            piesc.GetComponent<Animator>().Play("zniszSciany");
+            Cam.SetActive(true);
+            Cam.GetComponent<PiescNaKamerze>().czyPatrzec = true;
+            Cam.GetComponent<Camera>().clearFlags = CameraClearFlags.Skybox;
+            fps.SetActive(false);
+            //SceneManager.LoadScene(4);
         }
         int wygenerowany = Random.Range(0, wyrzutnie.Count - 1);
         GameObject wylosowana = wyrzutnie[wygenerowany];
