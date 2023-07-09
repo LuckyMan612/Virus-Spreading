@@ -19,6 +19,7 @@ public class RealGameSceneManager : MonoBehaviour
     [Header("Koniec mapy")]
     public GameObject piesc;
     public GameObject fps;
+    public GameObject[] coUsunac;
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +67,10 @@ public class RealGameSceneManager : MonoBehaviour
             Cam.GetComponent<PiescNaKamerze>().czyPatrzec = true;
             Cam.GetComponent<Camera>().clearFlags = CameraClearFlags.Skybox;
             fps.SetActive(false);
+            foreach (GameObject item in coUsunac)
+            {
+                item.SetActive(false);
+            }
             //SceneManager.LoadScene(4);
         }
         int wygenerowany = Random.Range(0, wyrzutnie.Count - 1);
